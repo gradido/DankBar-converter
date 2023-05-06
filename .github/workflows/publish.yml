@@ -15,3 +15,4 @@ jobs:
         username: 'gradido'
         reponame: 'DankBar-converter'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        useyarn: true
