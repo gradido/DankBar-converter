@@ -8,11 +8,6 @@ export default {
             result: '',
             year: '2023',
             now: new Date(),
-            icons: [
-            { icon:'mdi-facebook', url: 'https://www.facebook.com/groups/Gradido'},
-            { icon:'mdi-twitter', url: 'https://twitter.com/gradido'},
-            { icon:'mdi-youtube', url: 'https://www.youtube.com/c/GradidoNet'},
-        ],
         }
     },
     watch: {
