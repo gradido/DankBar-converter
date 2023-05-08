@@ -32,7 +32,6 @@ Die Anzahl der Tage seit dem 1. Januar 2023 bis zum heutigen Tag (7. Mai 2023) b
 
 Math.pow(0.998098, 126) = 0.6785977265658498
 Also wäre der aktuelle Wert von faktor1() ungefähr 0.6786 (auf vier Nachkommastellen gerundet).  
-
  
 
 
@@ -71,4 +70,39 @@ dadurch lässt sich der faktor1  ausrechnen :
         },
 
 
+# Umrechner in deiner Webseite einbetten.
 
+Hier ist ein Beispiel Code, wie du den Konverter recht einfach in eine HTML-Struktur einbinden.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IFrame Example</title>
+</head>
+<body>
+  <h1>IFrame Example</h1>
+  <iframe src="https://gradido.github.io/DankBar-converter/"
+          title="DankBar Converter"
+          width="100%"
+          height="500px">
+    <!-- Dieser Text wird angezeigt, wenn das IFrame nicht geladen werden kann -->
+    <p>Ihr Browser unterstützt keine IFrames.</p>
+  </iframe>
+</body>
+</html>
+```
+
+In diesem Beispiel wird das iFrame verwendet, um die Website "https://gradido.github.io/DankBar-converter/" zu laden. Das src-Attribut gibt die URL der Website an, die im iFrame geladen werden soll. Das title-Attribut wird für die Barrierefreiheit und SEO-Zwecke verwendet, um den Zweck des iFrame zu beschreiben. Das width- und height-Attribut gibt die Größe des iFrame an.
+
+```
+<iframe src="https://gradido.github.io/DankBar-converter/"
+          title="DankBar Converter"
+          width="100%"
+          height="500px">
+    <!-- Dieser Text wird angezeigt, wenn das IFrame nicht geladen werden kann -->
+    <p>Ihr Browser unterstützt keine IFrames.</p>
+  </iframe>
+```
+Der Text innerhalb des IFrame-Tags wird angezeigt, wenn das iFrame nicht geladen werden kann. Dies kann zum Beispiel passieren, wenn die Website das Einbetten in einem iFrame aus Sicherheitsgründen blockiert.
