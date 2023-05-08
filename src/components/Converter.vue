@@ -6,7 +6,7 @@ export default {
             amount: '',
             gddToDankBar: true,
             result: '',
-            year: '2023',
+            year: new Date().getFullYear(),
             now: new Date(),
         }
     },
